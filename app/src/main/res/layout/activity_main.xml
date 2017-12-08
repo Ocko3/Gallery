@@ -1,0 +1,102 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/leftside"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:src="@drawable/fluffy_not_fat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:paddingBottom="8dp"
+            android:onClick="imageClick"
+            android:clickable="true"
+            />
+
+        <ImageView
+            android:id="@+id/pic2"
+            android:src="@drawable/one_sister"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:layout_marginBottom="8dp"
+            android:onClick="imageClick"
+            android:clickable="true"
+            />
+
+        <ImageView
+            android:id="@+id/pic3"
+            android:src="@drawable/stayin_alive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:onClick="imageClick"
+            android:clickable="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rightside"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        >
+
+        <ImageView
+            android:id="@+id/pic4"
+            android:src="@drawable/pumpkin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="8dp"
+            android:scaleType="fitXY"
+            android:onClick="imageClick"
+            android:clickable="true"
+            />
+
+        <ImageView
+            android:id="@+id/pic5"
+            android:src="@drawable/pringles_holder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:onClick="imageClick"
+            android:clickable="true"
+            />
+
+        <ImageView
+            android:id="@+id/pic6"
+            android:src="@drawable/true_friendship"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:onClick="imageClick"
+            android:clickable="true"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
